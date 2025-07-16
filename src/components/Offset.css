@@ -1,0 +1,52 @@
+/* src/components/Offset.css */
+.offset-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e9fdf4;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 100, 80, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.offset-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.offset-container label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.offset-container input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.offset-container button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #00a67e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.offset-container button:hover {
+  background-color: #008d6a;
+}
+
+.result {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #004d40;
+}

@@ -1,0 +1,54 @@
+.reports-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.reports-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #0aad6a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #09995e;
+}
+
+.no-data {
+  color: #666;
+  font-size: 16px;
+  margin-top: 30px;
+}

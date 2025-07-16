@@ -1,0 +1,58 @@
+/* src/components/Form.css */
+
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f4fdfc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-card h2 {
+  margin-bottom: 10px;
+  color: #007b5e;
+  font-weight: bold;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.file-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.filename {
+  font-size: 14px;
+  color: #444;
+}
+
+.upload-btn {
+  background-color: #00a67e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #008e6b;
+}
+.upload-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

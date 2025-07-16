@@ -1,0 +1,16 @@
+/* src/components/Tracker.css */
+.tracker-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tracker-container h2 {
+  margin-bottom: 1rem;
+}
+
+.tracker-chart {
+  margin-top: 2rem;
+}
